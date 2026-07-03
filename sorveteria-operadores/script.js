@@ -14,3 +14,4 @@ console.log("Sabor: ", sabor);
 console.log("Quantidade de bolas: ", quantidadeBolas); // Lá ele!
 console.log("Quantidade de acompanhamneto: ", quantidadeAcompanhamento);
 console.log("Valor total: ", preçoTotal + preçoAcompanhamento , "reais");
+console.log("--------------------");
