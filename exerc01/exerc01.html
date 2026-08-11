@@ -7,7 +7,21 @@
 </head>
 <body>
     <script>
-        prompt("Digite seu nome: ")
+       var nome = prompt("Digite seu nome: ")
+       alert("Olá, muito prazer em te conhecer " + nome) // sinal de + serve para concatenar, ou seja, juntar duas ou mais strings ou variáveis.
+
+       var n1 = Number.parseInt(prompt("Digite um número: ")) // Number() serve para converter uma string em número.
+       var n2 = Number(prompt("Digite outro número: "))
+       var soma = n1 + n2
+       alert("A soma de " + n1 + " e " + n2 + " é: " + soma)
+
+       nome = 'Pé'
+       idade = 60
+       sapato = 44.5
+       alert(`O ${nome} tem ${idade} anos e calça ${sapato}`) // Utilizando template string ${}, você pode colocar variáveis dentro de uma string, sem precisar concatenar.
+
+       s = 'Você peidou aqui?'
+       document.write(`${toUpperCase(s)}`) // toUpperCase() serve para deixar todas as letras maiúsculas.
     </script>
 </body>
 </html>
