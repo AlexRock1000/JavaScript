@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando o DOM</title>
+    <style>
+        body {
+            background-color: #a8a8a8;
+            font: normal 16pt Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p id="p">Aprendendo <strong>DOM</strong></p>
+    <div id="clique">Clique aqui</div>
+    <script>
+        var d = document.getElementById('clique')
+        var p = document.querySelector('p#p')
+        
+        p.style.color = 'white'
+    
+    </script>
+</body>
+</html>
